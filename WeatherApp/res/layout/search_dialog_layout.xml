@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/search_dialog_bckg"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/search_dialog_layout_padding"
+    android:paddingRight="@dimen/search_dialog_layout_padding" >
+
+    <TextView
+        style="@style/text_view_style"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_dialog_veritical_padding"
+        android:text="@string/city_weather"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/search_dialog_veritical_padding"
+        android:background="@android:color/darker_gray" >
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/search_by_options"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/search_dialog_veritical_padding"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RadioButton
+            android:id="@+id/search_by_location_name"
+            style="@style/text_view_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="@string/search_by_location"
+            android:textColor="@android:color/black" />
+
+        <RadioButton
+            android:id="@+id/search_by_current_location"
+            style="@style/text_view_style"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/current_location"
+            android:textColor="@android:color/black" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/search_dialog_veritical_padding"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/search_dialog_veritical_padding"
+        android:weightSum="1" >
+
+        <EditText
+            android:id="@+id/add_city_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.85"
+            android:focusable="true"
+            android:hint="@string/enter_location_name" />
+
+        <ImageView
+            android:id="@+id/search_by_location"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15"
+            android:background="@drawable/search_button_selector"
+            android:src="@drawable/search_brown" />
+    </LinearLayout>
+
+</LinearLayout>

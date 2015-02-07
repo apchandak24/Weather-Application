@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:title="@string/refresh">
+    </item> 
+    <item
+        android:id="@+id/action_search_by_location"
+        android:icon="@drawable/location_plus"
+        android:showAsAction="always"
+        android:title="@string/get_weather_particular_location">
+    </item>
+    <item 
+        android:id="@+id/action_f_to_c"
+        android:showAsAction="always"
+        android:icon="@drawable/fahrenheit_white"
+        android:title="@string/fahrenheit"
+        />
+
+</menu>

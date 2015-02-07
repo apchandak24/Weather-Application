@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_item_pressed">#10FFFFFF</color>
+    <color name="list_item_background">#10000000</color>
+    <color name="search_dialog_bckg">#CCF0E6D6</color>
+    <color name="search_button_pressed">#DDDDDD</color>
+</resources>

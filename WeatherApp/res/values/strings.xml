@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weather App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="humidity_">"Humidity: "</string>
+    <string name="min_temp">"Min: "</string>
+    <string name="max_temp">"Max: "</string>
+    <string name="refresh">Refresh</string>
+    <string name="get_weather_particular_location">Get Weather</string>
+    <string name="search_options">Search Options</string>
+    <string name="enter_location_name">Enter Location Name</string>
+    <string name="city_weather">Get Weather Forecast By</string>
+    <string name="error_string_location_service_not_enabled">Location Service not enabled</string>
+    <string name="error_string_data_cannot_be_retrieved">Data Cannot be retrieved,please try again </string>
+    <string name="error_string_some_error_has_occurred">Some Error has occurred</string>
+    <string name="error_string_network_not_available">Please enable your internet connection and try again</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="celsius">Celsius</string>
+    <string name="search_by_location">Location Name</string>
+    <string name="current_location">Current Location</string>
+    <string name="celsius_symbol">" °C"</string>
+    <string name="fahrenheit_symbol">" °F"</string>
+    <string name="last_updated">"Last Updated: "</string>
+    <string name="progress_dialog_message">Fetching Weather data</string>
+    <string name="message_please_enter_location_name">Please Enter location name</string>
+
+</resources>
